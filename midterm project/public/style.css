@@ -1,0 +1,187 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:100;
+    color: whitesmoke;
+    background-image: url("http://orig11.deviantart.net/919d/f/2010/181/6/5/kite_by_juzzi_juzzi.jpg");
+    background-size: cover;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
+}
+
+.msghidden{
+    display:none;
+
+}
+.barNav {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 55px;
+    position: relative;    
+}
+
+.title-main{
+    margin-top: 2px;
+    margin-left: 10px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.titlemain {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.about, .kite-pics, .location{
+    display: inline-block;
+    position: absolute;
+    top:10px;
+}
+
+.about{
+    left:82%;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.about:hover{
+    font-size: 17px;
+}
+
+.kite-pics {
+    left:87%;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.kite-pics:hover{
+    font-size: 17px;
+}
+
+.location{
+    left: 92.5%;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.location:hover {
+    font-size: 17px;
+}
+
+.go-container {
+    width: 810px;
+    position: relative;
+    left:34%;
+}
+
+.go-heading{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.go-btn {
+    border-radius: 0; 
+    position: absolute;
+    left: 19%;
+    top: 151%;
+    background-color: none;
+}
+
+.message {
+    font-size: 35px;
+    font-style: italic;
+    position: absolute;
+    top: 318%;
+    left:-16%;
+}
+
+.about-container {
+    position: relative;
+    width: 815px;
+    left: 8%;
+    top: -40px;
+    opacity: 1;      
+}
+
+.about-title {
+    font-size: 45px;
+}
+
+.about-content {
+    font-size: 30px;
+    position: absolute;
+    left: 20%;
+    top: 185%;
+}
+
+.location-container {
+    position: relative;
+    width: 815px;
+    left: 8%;
+    top: -40px;
+}
+
+.location-title {
+    font-size: 45px;
+}
+
+.location-content {
+    font-size: 35px;
+    position: absolute;
+    left: 43%;
+    top: 185%
+}
+
+.kitepic-container {
+    position: relative;
+    width: 815px;
+    left: 8%;
+    top: -40px;
+}
+
+.kite-title {
+    font-size: 45px;
+}
+
+.kitepic-content {
+    font-size: 27px;
+    position: absolute;
+    left: 20%;
+    top: 84%;
+}
+
+.kite-img {
+    position: absolute;
+    top:469%;
+    left:26%;
+    margin-bottom: 34px;
+}
+
+.random-btn {
+    border-radius: 0; 
+    position: absolute;
+    top:297%;
+    left:50.5%;
+}
+

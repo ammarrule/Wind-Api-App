@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Get ExKited Toronto</title>
+    </head>
+    <body>
+    <nav class="barNav">
+                <button class="title-main" id="titleMain"><h2 class="titlemain">Get ExKited Toronto</h2></button>
+                <button class="about" id="about">About</button>
+                <button class="kite-pics" id="kitepics">Kite Pics</button>
+                <button class="location" id="location">Location Search</button>
+            </nav>
+        <div class="container">                       
+            <div class="go-container" id="goHidden">
+                <h2 class="go-heading">Check how the wind fare!</h2>
+                <button class="btn btn-lg btn-primary go-btn" id="clickGo">Go!</button>
+                <div class="message msghidden" id="msg"><%= message %></div>
+            </div>
+            <div class="about-container hide" id="aboutHidden">
+                <h2 class="about-title">About</h2>
+                <p class="about-content">Nothing is more exhilirating than an old fashioned kite fly. ExKite Toronto, is your source on whether or not you can fly a kite. Provides wind updates in real time! While you're here check out some kite photos!</p>
+            </div>
+            <div class="location-container hide" id="locationHidden">
+                <h2 class="location-title">Location Search</h2>
+                <p class="location-content">Coming Soon!<p>
+            </div>
+            <div class="kitepic-container hide" id="kitepicHidden">
+                <h2 class="kite-title">Kite Pics</h2>
+                <p class = "kitepic-content">Not enough wind to fly a kite? Why not look at a random picture of other people flying them!</p>
+                <div class="kite-img">
+                    <img src="<%= randoImg %>"/>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>    
+    <script src="app.js"></script>
+    </body> 
+</html>
